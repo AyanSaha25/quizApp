@@ -49,6 +49,7 @@ body {
     padding: 10px 10px;
 }
 
+
 #btn0:hover,
 #btn1:hover,
 #btn2:hover,
@@ -67,4 +68,40 @@ body {
 #progress {
     color: #2b2b2b;
     font-size: 20px;
+}
+
+/* For HD screens*/
+
+@media screen and (min-width: 1280px){
+	.grid{
+		width: 90%;
+		height: 85%;}
+	
+	.buttons{
+		text-align:center;
+	}
+	
+	.buttons>button:nth-child(-n+3){
+		background-color: #540757;
+		width: 240px;
+		font-size: 30px;
+		color: #fff;
+		border: 3px solid #1D3C6A;
+		margin: 15px 40px 10px 0px;
+		padding: 10px 10px;
+		
+	}
+	#btn3{
+		background-color: #540757;
+		width: 240px;
+		font-size: 30px;
+		color: #fff;
+		border: 3px solid #1D3C6A;
+		margin: 15px 0px 10px 0px;
+		padding: 10px 10px;
+		
+	}
+	
+	
+	
 }
